@@ -31,13 +31,43 @@
 #desyAndLetyHomebanner .banner-top button {
     margin-top: 2rem;
 }
-#desyAndLetyHomebanner article:nth-child(2) {
+#desyAndLetyHomebanner article.figure-article {
     padding-top: 5rem;
     margin-bottom: 4rem;
 }
+#desyAndLetyHomebanner article.figure-article center > h2 {
+    margin-bottom: 4rem;
+}
+#desyAndLetyHomebanner article.figure-article center figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#desyAndLetyHomebanner article.figure-article center figure div.images-collection {
+    display: flex;
+}
+#desyAndLetyHomebanner article.figure-article center figure div.images-collection div {
+    border: 1px solid #eee;
+    background-color: var(--text);
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 6px 20px 10px rgba(0, 0, 0, .03);
+}
+#desyAndLetyHomebanner article.figure-article center figure div.images-collection div:not(:first-child) {
+    margin-left: -180px;
+}
+#desyAndLetyHomebanner article.figure-article center figure div.images-collection div:nth-child(2) {
+    margin-top: 80px;
+}
+#desyAndLetyHomebanner article.figure-article center figure div.images-collection div:nth-child(3) {
+    margin-top: 160px;
+}
+#desyAndLetyHomebanner article.figure-article center figure figcaption {
+    text-align: start; 
+}
 #desyAndLetyHomebanner article:nth-child(3) {
-    background-color: var(--primary);
+    background-color: var(--primary2);
     padding: 2rem 0;
+    height: 600px;
 }
 #desyAndLetyHomebanner article:nth-child(3) center {
     display: grid;
@@ -50,4 +80,7 @@
 #desyAndLetyHomebanner article:nth-child(3) center > div h2 {
     color: var(--text);
 }
-
+.small {
+    width: 200px;
+    height: 200px;
+}
