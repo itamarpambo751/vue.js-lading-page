@@ -3,13 +3,13 @@ import { RouterLink } from 'vue-router'
 </script>
 <template>
     <div  id="desyAndLetyHomebanner">
-        <div class="banner-top">
+        <article class="banner-top">
             <h1>Prestamos variados serviços de interesse feminino</h1>
             <small>O seu conforto é a nossa prioridade. <RouterLink to="/">Confira já os nossos serviços!</RouterLink></small>
     
             <button>Saber mais...</button>
-        </div>
-        <main>
+        </article>
+        <article>
             <center>
                 <h2>Temos um leque de serviços muito variados</h2>
 
@@ -28,7 +28,10 @@ import { RouterLink } from 'vue-router'
                     </figcaption>
                 </figure>
             </center>   
-        </main>
+        </article>
+        <article>
+            
+        </article>
     </div>
 </template>
 <style scoped>@import url('./DesyAndLetyView.css');</style>

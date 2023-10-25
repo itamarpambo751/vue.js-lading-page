@@ -16,54 +16,58 @@
 }
 #desyAndLetyHomebanner .banner-top h1 {
     font-size: 3.2rem;
-    color: #fff;
+    color: var(--text);
     width: 50%;
     text-align: center;
     margin-bottom: 1rem;
 }
 #desyAndLetyHomebanner .banner-top small {
-    color: #fff;
+    color: var(--text);
 }
 #desyAndLetyHomebanner .banner-top small a {
     text-decoration: underline;
-    color: rgb(0, 132, 255);
+    color: var(--link);
 }
 #desyAndLetyHomebanner .banner-top button {
     margin-top: 2rem;
 }
-#desyAndLetyHomebanner main {
+#desyAndLetyHomebanner article:nth-child(2) {
     padding-top: 5rem;
-    height: 1000px;
-}
-#desyAndLetyHomebanner main center > h2 {
     margin-bottom: 4rem;
 }
-#desyAndLetyHomebanner main center figure {
+#desyAndLetyHomebanner article:nth-child(2) center > h2 {
+    margin-bottom: 4rem;
+}
+#desyAndLetyHomebanner article:nth-child(2) center figure {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#desyAndLetyHomebanner main center figure div.images-collection {
+#desyAndLetyHomebanner article:nth-child(2) center figure div.images-collection {
     display: flex;
 }
-#desyAndLetyHomebanner main center figure div.images-collection div {
+#desyAndLetyHomebanner article:nth-child(2) center figure div.images-collection div {
     border: 1px solid #eee;
-    background-color: #fff;
+    background-color: var(--text);
     width: 300px;
     height: 300px;
     box-shadow: 0 6px 20px 10px rgba(0, 0, 0, .03);
 }
-#desyAndLetyHomebanner main center figure div.images-collection div:not(:first-child) {
+#desyAndLetyHomebanner article:nth-child(2) center figure div.images-collection div:not(:first-child) {
     margin-left: -180px;
 }
-#desyAndLetyHomebanner main center figure div.images-collection div:nth-child(2) {
+#desyAndLetyHomebanner article:nth-child(2) center figure div.images-collection div:nth-child(2) {
     margin-top: 80px;
 }
-#desyAndLetyHomebanner main center figure div.images-collection div:nth-child(3) {
+#desyAndLetyHomebanner article:nth-child(2) center figure div.images-collection div:nth-child(3) {
     margin-top: 160px;
 }
-#desyAndLetyHomebanner main center figure figcaption {
+#desyAndLetyHomebanner article:nth-child(2) center figure figcaption {
     text-align: start; 
 }
-#desyAndLetyHomebanner main center figure figcaption h2 {
+#desyAndLetyHomebanner article:nth-child(2) center figure figcaption h2 {
     margin-bottom: 1rem; 
+}
+#desyAndLetyHomebanner article:nth-child(3) {
+    height: 300px;
+    background-color: var(--primary);
 }
