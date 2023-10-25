@@ -30,7 +30,21 @@ import { RouterLink } from 'vue-router'
             </center>   
         </article>
         <article>
-            
+            <center>
+                <div>
+                    <h2>Agora estamos começando outra secção do site, por favor acalme-se e desfrute</h2>
+                    <p class="text2">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis modi, facere maxime deleniti esse harum perferendis, cum praesentium dolor libero quasi mollitia adipisci ex dolore assumenda vero laborum! Sit, nihil. 
+                    </p>
+                    <br>
+                    <p class="text3">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, eveniet! Quasi nulla, veniam in soluta maiores eius? Nulla consectetur, quas, nisi voluptas blanditiis cum 
+                    </p>
+                </div>
+                <div>
+                    <img src="" alt="" srcset="">
+                </div>
+            </center>
         </article>
     </div>
 </template>

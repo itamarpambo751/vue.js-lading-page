@@ -21,6 +21,7 @@ button {
 h2 {
     font-size: 1.6rem;
     font-weight: 500;
+    margin-bottom: 1rem; 
 }
 p {
     line-height: 28px;

@@ -4,4 +4,14 @@
     --primary: #190941;
     --link: #0084ff;
     --text: #fff;
+    --text2: #ffffff7c;
+    --text3: #ffffffd3;
+}
+.text2 {
+    color: var(--text2);
+    font-size: 13px;
+    line-height: 22px;
+}
+.text3 {
+    color: var(--text3);
 }
