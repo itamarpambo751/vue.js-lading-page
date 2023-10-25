@@ -18,6 +18,13 @@ button {
     border-radius: 50px;
     font-size: .9rem;
 }
+h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+p {
+    line-height: 28px;
+}
 center {
     width: 80%;
     margin: 0 auto;

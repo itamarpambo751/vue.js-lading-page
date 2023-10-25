@@ -4,27 +4,66 @@
     left: 0;
     right: 0;
     width: 100%;
+    z-index: -1;
+}
+#desyAndLetyHomebanner .banner-top{
     height: 100vh;
     background-color: var(--primary);
-    z-index: -1;
     display: flex;
     align-items: center;
     padding-top: 15rem;
     flex-direction: column;
 }
-#desyAndLetyHomebanner h1 {
+#desyAndLetyHomebanner .banner-top h1 {
     font-size: 3.2rem;
     color: #fff;
     width: 50%;
     text-align: center;
     margin-bottom: 1rem;
 }
-#desyAndLetyHomebanner small {
+#desyAndLetyHomebanner .banner-top small {
     color: #fff;
 }
-#desyAndLetyHomebanner button {
+#desyAndLetyHomebanner .banner-top small a {
+    text-decoration: underline;
+    color: rgb(0, 132, 255);
+}
+#desyAndLetyHomebanner .banner-top button {
     margin-top: 2rem;
 }
-main {
+#desyAndLetyHomebanner main {
+    padding-top: 5rem;
     height: 1000px;
+}
+#desyAndLetyHomebanner main center > h2 {
+    margin-bottom: 4rem;
+}
+#desyAndLetyHomebanner main center figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#desyAndLetyHomebanner main center figure div.images-collection {
+    display: flex;
+}
+#desyAndLetyHomebanner main center figure div.images-collection div {
+    border: 1px solid #eee;
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 6px 20px 10px rgba(0, 0, 0, .03);
+}
+#desyAndLetyHomebanner main center figure div.images-collection div:not(:first-child) {
+    margin-left: -180px;
+}
+#desyAndLetyHomebanner main center figure div.images-collection div:nth-child(2) {
+    margin-top: 80px;
+}
+#desyAndLetyHomebanner main center figure div.images-collection div:nth-child(3) {
+    margin-top: 160px;
+}
+#desyAndLetyHomebanner main center figure figcaption {
+    text-align: start; 
+}
+#desyAndLetyHomebanner main center figure figcaption h2 {
+    margin-bottom: 1rem; 
 }
