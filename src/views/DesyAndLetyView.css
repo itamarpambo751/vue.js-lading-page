@@ -33,10 +33,14 @@
 }
 #desyAndLetyHomebanner article.figure-article {
     padding-top: 5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
+}
+#desyAndLetyHomebanner article center div > h2 {
+    width: 600px;
 }
 #desyAndLetyHomebanner article.figure-article center > h2 {
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
+    width: 500px;
 }
 #desyAndLetyHomebanner article.figure-article center figure {
     display: grid;
@@ -50,7 +54,7 @@
     background-color: var(--text);
     width: 300px;
     height: 300px;
-    box-shadow: 0 6px 20px 10px rgba(0, 0, 0, .03);
+    box-shadow: 0 6px 25px 15px rgba(0, 0, 0, .1);
 }
 #desyAndLetyHomebanner article.figure-article center figure div.images-collection div img {
     width: 100%;

@@ -4,14 +4,14 @@ import { RouterLink } from 'vue-router'
 <template>
     <div  id="desyAndLetyHomebanner">
         <article class="banner-top">
-            <h1>Prestamos variados serviços de interesse feminino</h1>
+            <h1>Zeroing in on Therapeutic Drug Tragets</h1>
             <small>O seu conforto é a nossa prioridade. <RouterLink to="/">Confira já os nossos serviços!</RouterLink></small>
     
-            <button>Saber mais...</button>
+            <button>Learn more...</button>
         </article>
         <article class="figure-article">
             <center>
-                <h2>Temos um leque de serviços muito variados</h2>
+                <h2>Bionil Provide fully 100% AI Based Automated Medical Service</h2>
 
                 <figure>
                     <div class="images-collection">
@@ -26,7 +26,7 @@ import { RouterLink } from 'vue-router'
                         </div>
                     </div>
                     <figcaption>
-                        <h2>Desde os nossos serviços capilares...</h2>
+                        <h2>Develope your microbe based product With Microboost AI</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptates debitis facere minus amet, necessitatibus voluptatibus maiores explicabo sint ipsum, sunt laborum deserunt odio odit quaerat, enim quos illum maxime!
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati deleniti quo alias ab, modi natus atque commodi suscipit rem eligendi provident magni facilis recusandae consequatur velit architecto repellendus molestiae!
@@ -38,7 +38,7 @@ import { RouterLink } from 'vue-router'
         <article>
             <center>
                 <div>
-                    <h2>Agora estamos começando outra secção do site, por favor acalme-se e desfrute</h2>
+                    <h2>Bionil Provide fully 100% AI Based Automated Medical Service Develope your microbe based product With Microboost AI</h2>
                     <p class="text2">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis modi, facere maxime deleniti esse harum perferendis, cum praesentium dolor libero quasi mollitia adipisci ex dolore assumenda vero laborum! Sit, nihil. 
                     </p>
