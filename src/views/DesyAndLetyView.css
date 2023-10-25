@@ -52,6 +52,10 @@
     height: 300px;
     box-shadow: 0 6px 20px 10px rgba(0, 0, 0, .03);
 }
+#desyAndLetyHomebanner article.figure-article center figure div.images-collection div img {
+    width: 100%;
+    height: 100%;
+}
 #desyAndLetyHomebanner article.figure-article center figure div.images-collection div:not(:first-child) {
     margin-left: -180px;
 }

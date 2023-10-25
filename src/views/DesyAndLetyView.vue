@@ -15,9 +15,15 @@ import { RouterLink } from 'vue-router'
 
                 <figure>
                     <div class="images-collection">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div>
+                            <img src="../assets/img/original-cfe8f3f4cb0ab1d339f744476e72cb4d.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../assets/img/original-cfe8f3f4cb0ab1d339f744476e72cb4d.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../assets/img/original-cfe8f3f4cb0ab1d339f744476e72cb4d.png" alt="">
+                        </div>
                     </div>
                     <figcaption>
                         <h2>Desde os nossos serviços capilares...</h2>

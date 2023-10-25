@@ -1,12 +1,27 @@
+<script>
+import img from '../assets/img/original-cfe8f3f4cb0ab1d339f744476e72cb4d.png'
+defineProps({
+    type: {
+        required: true,
+        type: String
+    }
+})
+</script>
+
 <template>
     <center class="figure">
         <h2>Temos um leque de serviços muito variados</h2>
-
         <figure>
             <div class="images-collection">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <img src="./../assets/img/original-cfe8f3f4cb0ab1d339f744476e72cb4d.png" alt="some-image">
+                </div>
+                <div>
+                    <img src="./../assets/img/original-cfe8f3f4cb0ab1d339f744476e72cb4d.png" alt="some-image">
+                </div>
+                <div>
+                    <img src="./../assets/img/original-cfe8f3f4cb0ab1d339f744476e72cb4d.png" alt="some-image">
+                </div>
             </div>
             <figcaption>
                 <h2>Desde os nossos serviços capilares...</h2>
@@ -18,6 +33,7 @@
         </figure>
     </center>
 </template>
+
 <style scoped>
 center.figure > h2 {
     margin-bottom: 4rem;
