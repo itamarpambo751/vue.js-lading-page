@@ -1,0 +1,33 @@
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: var(--primary);
+}
+header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+header center {
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header center nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+header center nav a {
+    color: #fff;
+}
+header center .aditionals form input {
+    background-color: #eee;
+    padding: 10px;
+    padding-left: 30px;
+    width: 150px;
+    border-radius: 60px;
+}

@@ -1,3 +1,3 @@
 <template>
-    <h1>Peoples</h1>
+    <h1>Team</h1>
 </template>
