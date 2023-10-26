@@ -54,16 +54,22 @@ import { RouterLink } from 'vue-router'
         </article>
         <article class="figure-article">
             <center>
-                <h2>Temos um leque de serviços muito variados</h2>
+                <h2>Bionil Provide fully 100% AI Based Automated Medical Service</h2>
 
                 <figure>
                     <div class="images-collection">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div>
+                            <img src="../assets/img/original-cfe8f3f4cb0ab1d339f744476e72cb4d.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../assets/img/original-cfe8f3f4cb0ab1d339f744476e72cb4d.png" alt="">
+                        </div>
+                        <div>
+                            <img src="../assets/img/original-cfe8f3f4cb0ab1d339f744476e72cb4d.png" alt="">
+                        </div>
                     </div>
                     <figcaption>
-                        <h2>Desde os nossos serviços capilares...</h2>
+                        <h2>Bionil Provide fully 100% AI Based Automated Medical Service Develope your microbe based product With Microboost AI</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptates debitis facere minus amet, necessitatibus voluptatibus maiores explicabo sint ipsum, sunt laborum deserunt odio odit quaerat, enim quos illum maxime!
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati deleniti quo alias ab, modi natus atque commodi suscipit rem eligendi provident magni facilis recusandae consequatur velit architecto repellendus molestiae!
